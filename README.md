@@ -1,4 +1,5 @@
 ## 技术栈
+这个小项目大致用了4天左右吧,基本上利用的都是闲暇时间
 
 主框架加数据库react+mongodb+koa2
 
@@ -7,6 +8,9 @@
 ## react初学项目
 
 写出很多问题的同时也解决了很多问题搭配后台使用即可
+使用前需开启数据库
+
+npm start
 
 https://github.com/Sobergod/to-do-list-admin
 
