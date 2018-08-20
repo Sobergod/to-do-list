@@ -1,0 +1,88 @@
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.list-wrap {
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.list-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #eee;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date {
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 800;
+    color: #333;
+    border-bottom: 1px solid #888;
+}
+
+.lf {
+    padding-bottom: 5px;
+    width: 80%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+}
+
+.l {
+    top: 9px;
+    left: .4em;
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 15px;
+    background: #5cadff;
+}
+
+.finish-btn,
+.delete-btn {
+    padding: 5px;
+    font-size: 12px;
+    color: #f1f1f1;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.finish-btn:hover,
+.delete-btn:hover {
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.finish-btn {
+    margin-right: 5px;
+    background: #ff9900;
+}
+
+.delete-btn {
+    background: #ed4014;
+}
+
+.finish-btn:hover {
+    background: #FFB309;
+}
+
+.delete-btn:hover {
+    background: #ED5B27;
+}
+
+@media (min-width:768px) {
+    .list-wrap {
+        width: 768px;
+    }
+}

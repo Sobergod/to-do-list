@@ -1,0 +1,14 @@
+.wrap {
+    margin: 0 auto;
+    width: 90%;
+    min-width: 350px;
+}
+.list-wrap {
+    margin: 0 auto;
+    min-width: 350px;
+}
+@media (min-width:768px) {
+    .list-wrap {
+        width: 768px;
+    }
+}

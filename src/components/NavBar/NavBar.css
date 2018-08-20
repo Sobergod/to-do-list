@@ -1,0 +1,30 @@
+.navbar-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #eee;
+    box-shadow: 1px 1px 5px #ccc
+}
+
+.navbar-wrap:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.navbar-wrap li {
+    float: left;
+    margin: 20px;
+}
+
+.navbar-wrap li a {
+    color: #888;
+    text-decoration: none;
+    font-weight:800; 
+}
+
+.navbar-wrap li a:hover {
+    color: #222;
+}

@@ -1,0 +1,41 @@
+.inputWrap {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.inputItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inputItemTitle{
+    padding: 0 20px;
+}
+.input {
+    flex: 10;
+}
+input.input{
+    height: 30px;
+}
+.btnWrap {
+    display: flex;
+    justify-content: center;
+}
+.btnWrap span {
+    margin: 0 10px;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.btnWrap span:first-child {
+    background-color: #ff9900;
+}
+.btnWrap span:last-child {
+    background-color: #ed4014;
+}
+.btnWrap span:hover {
+    box-shadow: unset;
+    transition: all .3s ease-in;
+}
