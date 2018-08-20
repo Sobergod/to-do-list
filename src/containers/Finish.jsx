@@ -7,7 +7,6 @@ class Finish extends React.Component {
         this.state = {
             lists: [],
             listUrl: []
-            // test: this.setData()
         }
     }
     componentWillMount() {
